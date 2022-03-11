@@ -1,7 +1,10 @@
+/* General CSS */
+
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 
 
 ul {
@@ -18,6 +21,11 @@ ul {
     color: red;
 }
 
+.separator{
+    clear: both;
+}
+
+/* Header and Footer */
 li a {
     color: white;
     text-align: center;
@@ -61,6 +69,7 @@ section#header {
 
 #footer-top {
     width: 60%;
+    padding: auto;
 }
 
 #footer .social-media {
@@ -69,6 +78,7 @@ section#header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: auto;
 }
 
 #footer .social-media .line {
@@ -128,6 +138,7 @@ section#header {
     line-height: 50px;
     height: 50px;
     padding-bottom:30px;
+    margin-bottom: 0;
 }
 
 #copyright .content .copyright-text{
@@ -196,4 +207,153 @@ section#header {
     #footer{
         display: none;
     }
+}
+
+/****************************** */
+/* body part of the index page */
+
+
+/* gateway and searchbar section */
+
+.gateway{
+    min-width: 100%;
+    padding: 50px;
+    background: url('./../Images/group-1.jpg');
+    background-size: 100% 400px;
+    border: 0;
+    height: 400px;
+}
+
+.gateway .title{
+    font-size: 20px;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: center;
+    color:#FFF;
+}
+
+.gateway .content{
+    background: rgba(255,255,255,0.5);
+    width: 50%;
+    height: 130px;
+    margin: 30px  auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.gateway .content .subtitle{
+    font-size: 14px;
+    max-height: 20px;
+}
+
+.gateway .content .search-bar{
+    padding-top: 20px;
+}
+
+.gateway .search-bar input{
+    width:82%;
+    border:0.5px 0 0.5px 0.5px;
+    height: 35px;
+    line-height: 35px;
+    margin-top:10px;
+}
+
+.gateway .search-bar button{
+    background-color: #d35649;
+    color:white;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom:5px;
+    width: 70px;
+}
+
+.gateway .it-works{
+    background: rgba(255,255,255,0.5);
+    margin: 20px auto;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* four steps section */
+
+.main .four-steps{
+    min-width: 100%;
+    margin:auto;
+    padding: 25px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.four-steps  .title{
+    font-size: 20px;
+    font-weight: bold;
+    color:#d35649;
+    text-align: center;
+}
+
+.four-steps .first-col, .four-steps .second-col{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.four-steps .subtitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.four-steps .first-col{
+    float:left;
+}
+
+.four-steps .second-col{
+    float: right;
+}
+
+/* Near you , connecting you, spread love */
+
+.near-you, .connecting-you, .spreading-love{
+    padding:50px 20px;  
+    overflow: hidden;
+    color:white;
+}
+
+.near-you{
+    background: #d35649;
+}
+
+.connecting-you{
+    background: #98a5a5;
+}
+
+.spreading-love{
+    background: #509bd7;
+}
+
+.near-you img, .connecting-you img, .spreading-love img{
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+    float: right;
+}
+
+.near-you button, .connecting-you button{
+    text-align: center;
+    color:#d35649;
+    height: 40px;
+    line-height:40px;
+}
+.near-you .desc, .connecting-you .desc, .spreading-love .desc{
+    padding-top: 50px;
+    float: left;
+}
+
+.near-you .title, .connecting-you .title, .spreading-love .title{
+    font-weight: bold;
 }
