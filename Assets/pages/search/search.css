@@ -18,7 +18,8 @@ ul {
 
 }
 
-.contact, a.contact {
+.contact,
+a.contact {
     color: red;
     text-decoration: none;
 }
@@ -44,7 +45,7 @@ li a img {
     filter: invert(100%);
 }
 
-li a img:hover{
+li a img:hover {
     filter: invert(50%);
 }
 
@@ -62,20 +63,20 @@ section#header {
     justify-content: space-between;
 }
 
-#header .logo .title a{
+#header .logo .title a {
     font-size: 25px;
-    margin:0;
+    margin: 0;
     color: white;
     text-decoration: none;
 }
 
-#header .logo .title p{
-    margin:0rem;
+#header .logo .title p {
+    margin: 0rem;
 }
 
-#header .logo .title a:hover{
+#header .logo .title a:hover {
     color: #98a5a5;
-    
+
 }
 
 #header .header-nav {
@@ -159,7 +160,7 @@ section#header {
     text-align: center;
 }
 
-a.contact:hover{
+a.contact:hover {
     text-decoration: underline;
 }
 
@@ -192,7 +193,7 @@ a.contact:hover{
 
 #copyright .content .social ul li {
     padding: 10px 10px 20px 10px;
-    color:white;
+    color: white;
 }
 
 
@@ -245,223 +246,129 @@ a.contact:hover{
     }
 }
 
-/****************************** */
-/* body part of the index page */
+/***************************/
+/*       Main part        */
 
 
-/* gateway and searchbar section */
+/* filter */
 
-.gateway {
-    min-width: 100%;
-    padding: 50px;
-    background: url('./../Images/group-1.jpg');
-    background-size: 100% 400px;
-    border: 0;
-    height: 400px;
-}
-
-.gateway .title {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    color: #FFF;
-}
-
-.gateway .content {
-    background: rgba(255, 255, 255, 0.5);
-    width: 50%;
-    height: 130px;
-    margin: 30px auto;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.gateway .content .subtitle {
-    font-size: 14px;
-    max-height: 20px;
-}
-
-.gateway .content .search-bar {
-    padding-top: 20px;
-}
-
-.gateway .search-bar input {
-    width: 82%;
-    border: 0.5px 0 0.5px 0.5px;
-    height: 35px;
-    line-height: 35px;
-    margin-top: 10px;
-}
-
-.gateway .search-bar button {
-    background-color: #d35649;
-    color: white;
-    height: 40px;
-    line-height: 40px;
-    text-transform: uppercase;
-    padding: 0;
-    margin-bottom: 5px;
-    width: 70px;
-}
-
-.gateway .it-works {
-    background: rgba(255, 255, 255, 0.5);
-    margin: 20px auto;
-    width: 120px;
-    height: 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 30px;
-}
-
-/* four steps section */
-
-.main .four-steps {
-    min-width: 100%;
-    margin: auto;
-    padding: 25px;
-    text-align: center;
-    overflow: hidden;
-}
-
-.four-steps .title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #d35649;
-    text-align: center;
-}
-
-.four-steps .first-col,
-.four-steps .second-col {
-    margin: auto;
-    width: 50%;
+.filter {
+    margin: 30px 0;
     padding: 20px;
+    background: #eee;
 }
 
-.four-steps .subtitle {
-    font-size: 15px;
+
+.filter .title {
+    color: #98a5a5;
+    font-size: 23px;
     font-weight: bold;
-}
-
-.four-steps .first-col {
-    float: left;
-}
-
-.four-steps .second-col {
-    float: right;
-}
-
-/* Near you , connecting you, spread love */
-
-.near-you,
-.connecting-you,
-.spreading-love {
-    padding: 50px 20px;
-    overflow: hidden;
-    color: white;
-}
-
-.near-you {
-    background: #d35649;
-}
-
-.connecting-you {
-    background: #98a5a5;
-}
-
-.spreading-love {
-    background: #509bd7;
-}
-
-.near-you img,
-.connecting-you img,
-.spreading-love img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    float: right;
-}
-
-.near-you button,
-.connecting-you button {
     text-align: center;
-    height: 40px;
-    line-height: 40px;
-    margin-top: 20px;
 }
 
-.near-you button a,
-.connecting-you button a{
-    color: #d35649;
-    text-decoration: none;
-    
-}
-
-.near-you .desc,
-.connecting-you .desc,
-.spreading-love .desc {
-    padding-top: 50px;
-    float: left;
-}
-
-.near-you .title,
-.connecting-you .title,
-.spreading-love .title {
+.filter .subtitle {
+    font-size: 14px;
     font-weight: bold;
+    text-align: center;
+}
+
+.filter .filter-selectors{
+margin: auto;
+width: 80%;
+}
+
+.filter .filter-selectors .row{
+    justify-content: center;
+}
+    
+
+.filter .col{
+    width: 140px;
+    margin:0;
+}
+
+.input-icone{
+    font-size:14px;
+    margin: auto;
+    width:100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-icone input{
+    width:100px;
+    border-radius:2px;
+}
+
+.input-icone i{
+    right: 5px;
+    position:absolute;
+}
+
+.filter .filter-selectors .button{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.filter .filter-selectors .button .input-icone i{
+    left:0;
+    margin: 10px;
+}
+
+.btn .yellow{
+    padding:0;
+}
+
+input[type=button]{
+    border-radius: 7px;
+}
+
+.filter .filter-selectors .button .yellow{
+    width: 120px;
+    background: rgb(219, 187, 5);
+    color: white;
+    text-align: right;
+
+}
+
+.filter .filter-selectors .btn-yellow{
+    width:200px;
+}
+/* result found */
+section.result-found {
+    padding: 20px;
+    margin: auto;
+}
+
+.result-found .col {
+    background: #d35649;
+    margin:5px;
+    padding: 10px;
+
+}
+
+.result-found .title {
+    font-size: 20px;
+    color: #98a5a5;
+    text-align: center;
 }
 
 @media (max-width:768px) {
-    .gateway .content {
-        width: 75%;
-        height: 170px;
-        text-align: center;
-    }
-
-    .gateway .search-bar input,
-    .gateway .search-bar button {
-        width: 80%;
-        display: block;
-        margin: auto;
-        border-radius: 5px;
-    }
-
-    .four-steps {
+    .result-found .title {
         display: none;
     }
 
-    .near-you,
-    .connecting-you,
-    .spreading-love {
-        position: relative;
-        text-align: center;
-        padding: 20px 20px;
-
+    section.row{
+        display: block;
     }
 
-    .near-you img,
-    .connecting-you img,
-    .spreading-love img {
-        width: 100%;
-        height: 400px;
-        border-radius: 5%;
-        z-index: -100;
-    }
-
-    .near-you .desc,
-    .connecting-you .desc,
-    .spreading-love .desc {
-        padding-top: 50px;
-        z-index: 50;
-        position: absolute;
-        top: 25%;
-    }
-
-    .near-you button,
-    .connecting-you button {
-        background: rgba(0, 0, 0, 0);
-        border: 0;
-        font-weight: bolder;
+    .result-found .col{
+        width: 90%;
+        margin:25px auto;
+        display: block;
     }
 }
