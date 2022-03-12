@@ -1,3 +1,5 @@
+/* HARINASANDRATRA Lahatra Fitiavana evaluation finale sayna d-clic tana */
+
 /* General CSS */
 
 body {
@@ -18,7 +20,8 @@ ul {
 
 }
 
-.contact, a.contact {
+.contact,
+a.contact {
     color: red;
     text-decoration: none;
 }
@@ -28,7 +31,10 @@ ul {
     clear: both;
 }
 
+/*********************/
 /* Header and Footer */
+
+/* Header */
 li a {
     color: white;
     text-align: center;
@@ -44,7 +50,7 @@ li a img {
     filter: invert(100%);
 }
 
-li a img:hover{
+li a img:hover {
     filter: invert(50%);
 }
 
@@ -62,20 +68,20 @@ section#header {
     justify-content: space-between;
 }
 
-#header .logo .title a{
+#header .logo .title a {
     font-size: 25px;
-    margin:0;
+    margin: 0;
     color: white;
     text-decoration: none;
 }
 
-#header .logo p.title{
-    margin:0rem;
+#header .logo p.title {
+    margin: 0rem;
 }
 
-#header .logo .title a:hover{
+#header .logo .title a:hover {
     color: #98a5a5;
-    
+
 }
 
 #header .header-nav {
@@ -83,7 +89,7 @@ section#header {
     padding: 20px;
 }
 
-
+/* Footer */
 
 #footer {
     background-color: #1f1f1f;
@@ -99,7 +105,7 @@ section#header {
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
 }
 
@@ -113,7 +119,7 @@ section#header {
     border: 2px grey solid;
     border-radius: 50%;
     filter: invert(100%);
-    margin: 6px 0 0 0;
+    margin: 1px 0 0 0;
 }
 
 #footer .social-media img:hover {
@@ -159,10 +165,11 @@ section#header {
     text-align: center;
 }
 
-a.contact:hover{
+a.contact:hover {
     text-decoration: underline;
 }
 
+/* Copyright */
 #copyright {
     background-color: #444;
     line-height: 50px;
@@ -192,13 +199,14 @@ a.contact:hover{
 
 #copyright .content .social ul li {
     padding: 10px 10px 20px 10px;
-    color:white;
+    color: white;
 }
 
 #copyright .content i:hover {
-    color:#509bd7;
+    color: #509bd7;
 }
 
+/* responsive header and footer */
 @media (max-width:768px) {
     section#header {
         height: 130px;
@@ -385,10 +393,10 @@ a.contact:hover{
 }
 
 .near-you button a,
-.connecting-you button a{
+.connecting-you button a {
     color: #d35649;
     text-decoration: none;
-    
+
 }
 
 .near-you .desc,
@@ -404,6 +412,7 @@ a.contact:hover{
     font-weight: bold;
 }
 
+/* responsive body part */
 @media (max-width:768px) {
     .gateway .content {
         width: 75%;

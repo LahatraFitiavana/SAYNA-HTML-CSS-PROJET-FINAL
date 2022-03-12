@@ -1,3 +1,5 @@
+/* HARINASANDRATRA Lahatra Fitiavana evaluation finale sayna d-clic tana */
+
 /* General CSS */
 
 body {
@@ -29,7 +31,10 @@ a.contact {
     clear: both;
 }
 
+/******************* */
 /* Header and Footer */
+
+/* the header */
 li a {
     color: white;
     text-align: center;
@@ -70,7 +75,7 @@ section#header {
     text-decoration: none;
 }
 
-#header .logo p.title{
+#header .logo p.title {
     margin: 0rem;
 }
 
@@ -84,7 +89,7 @@ section#header {
     padding: 20px;
 }
 
-
+/* the footer */
 
 #footer {
     background-color: #1f1f1f;
@@ -100,7 +105,7 @@ section#header {
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
 }
 
@@ -114,7 +119,7 @@ section#header {
     border: 2px grey solid;
     border-radius: 50%;
     filter: invert(100%);
-    margin: 6px 0 0 0;
+    margin: 1px 0 0 0;
 }
 
 #footer .social-media img:hover {
@@ -172,6 +177,7 @@ a.contact:hover {
     margin-bottom: 0;
 }
 
+/* copyright */
 #copyright .content .copyright-text {
     float: right;
     color: white;
@@ -197,9 +203,10 @@ a.contact:hover {
 }
 
 #copyright .content i:hover {
-    color:#509bd7;
+    color: #509bd7;
 }
 
+/* responsive header and footer */
 @media (max-width:768px) {
     section#header {
         height: 130px;
@@ -264,41 +271,41 @@ a.contact:hover {
     text-align: center;
 }
 
-.filter .filter-selectors{
-margin: auto;
-width: 80%;
+.filter .filter-selectors {
+    margin: auto;
+    width: 80%;
 }
 
-.filter .filter-selectors .row{
+.filter .filter-selectors .row {
     justify-content: center;
 }
-    
 
-.filter .col{
+
+.filter .col {
     width: 140px;
-    margin:0;
+    margin: 0;
 }
 
-.input-icone{
-    font-size:14px;
+.input-icone {
+    font-size: 14px;
     margin: auto;
-    width:100px;
+    width: 100px;
     display: flex;
     align-items: center;
     position: relative;
 }
 
-.input-icone input{
-    width:100px;
-    border-radius:2px;
+.input-icone input {
+    width: 100px;
+    border-radius: 2px;
 }
 
-.input-icone i{
+.input-icone i {
     right: 5px;
-    position:absolute;
+    position: absolute;
 }
 
-.filter .filter-selectors .button{
+.filter .filter-selectors .button {
     color: white;
     margin-top: 20px;
     display: flex;
@@ -306,20 +313,20 @@ width: 80%;
     height: 60px;
 }
 
-.filter .filter-selectors .button .input-icone i{
-    left:0;
+.filter .filter-selectors .button .input-icone i {
+    left: 0;
     margin: 10px;
 }
 
-.btn .yellow{
-    padding:0;
+.btn .yellow {
+    padding: 0;
 }
 
-input[type=button]{
+input[type=button] {
     border-radius: 7px;
 }
 
-.filter .filter-selectors .button .yellow{
+.filter .filter-selectors .button .yellow {
     width: 120px;
     background: rgb(219, 187, 5);
     color: white;
@@ -327,9 +334,10 @@ input[type=button]{
 
 }
 
-.filter .filter-selectors .btn-yellow{
-    width:200px;
+.filter .filter-selectors .btn-yellow {
+    width: 200px;
 }
+
 /* result found */
 section.result-found {
     padding: 20px;
@@ -338,7 +346,7 @@ section.result-found {
 
 .result-found .col {
     background: #d35649;
-    margin:5px;
+    margin: 5px;
     padding: 10px;
 
 }
@@ -349,18 +357,19 @@ section.result-found {
     text-align: center;
 }
 
+/* responsive body part */
 @media (max-width:768px) {
     .result-found .title {
         display: none;
     }
 
-    section.row{
+    section.row {
         display: block;
     }
 
-    .result-found .col{
+    .result-found .col {
         width: 90%;
-        margin:25px auto;
+        margin: 25px auto;
         display: block;
     }
 }

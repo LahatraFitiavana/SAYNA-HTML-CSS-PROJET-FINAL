@@ -1,3 +1,5 @@
+/* HARINASANDRATRA Lahatra Fitiavana evaluation finale sayna d-clic tana */
+
 /* General CSS */
 
 body {
@@ -29,7 +31,10 @@ a.contact {
     clear: both;
 }
 
+/*********************/
 /* Header and Footer */
+
+/* Header */
 li a {
     color: white;
     text-align: center;
@@ -84,7 +89,7 @@ section#header {
     padding: 20px;
 }
 
-
+/* Footer */
 
 #footer {
     background-color: #1f1f1f;
@@ -100,7 +105,7 @@ section#header {
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
 }
 
@@ -114,7 +119,7 @@ section#header {
     border: 2px grey solid;
     border-radius: 50%;
     filter: invert(100%);
-    margin: 6px 0 0 0;
+    margin: 1px 0 0 0;
 }
 
 #footer .social-media img:hover {
@@ -164,12 +169,17 @@ a.contact:hover {
     text-decoration: underline;
 }
 
+/* copyright */
 #copyright {
     background-color: #444;
     line-height: 50px;
     height: 50px;
     padding-bottom: 30px;
     margin-bottom: 0;
+}
+
+#copyright .content {
+    width: 100%;
 }
 
 #copyright .content .copyright-text {
@@ -200,6 +210,7 @@ a.contact:hover {
     color: #509bd7;
 }
 
+/* responsive header and footer */
 @media (max-width:768px) {
     section#header {
         height: 130px;
@@ -295,16 +306,24 @@ a.contact:hover {
     font-weight: 510;
 }
 
+.sunny-day .options img {
+    filter: hue-rotate(100deg);
+}
+
 .sunny-day button {
     float: right;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     height: 55px;
     width: 90px;
     background: #509bd7;
     border: 0;
+}
+
+.sunny-day .apply {
+    filter: invert(100%);
 }
 
 hr.separator-line {
@@ -346,6 +365,7 @@ hr.separator-line {
     margin: auto;
 }
 
+/* responsive body parts */
 @media (max-width:768px) {
     hr.separator-line {
         display: none;
@@ -355,7 +375,7 @@ hr.separator-line {
     .sunny-day .right {
         float: none;
         width: 90%;
-        margin:1rem auto;
+        margin: 1rem auto;
         display: block;
     }
 }
