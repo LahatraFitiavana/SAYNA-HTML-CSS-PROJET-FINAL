@@ -70,7 +70,7 @@ section#header {
     text-decoration: none;
 }
 
-#header .logo .title p {
+#header .logo p.title{
     margin: 0rem;
 }
 
@@ -196,16 +196,8 @@ a.contact:hover {
     color: white;
 }
 
-
-
-#copyright .content img {
-    filter: invert(100%);
-    padding: 0 auto;
-    margin: 0;
-}
-
-#copyright .content img:hover {
-    filter: invert(90%);
+#copyright .content i:hover {
+    color:#509bd7;
 }
 
 @media (max-width:768px) {
